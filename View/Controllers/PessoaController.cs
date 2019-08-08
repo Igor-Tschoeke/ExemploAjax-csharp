@@ -13,6 +13,10 @@ namespace View.Controllers
     {
 
         private PessoaRepository repository;
+        public PessoaController()
+        {
+            repository = new PessoaRepository();
+        }
 
         public ActionResult Index()
         {
