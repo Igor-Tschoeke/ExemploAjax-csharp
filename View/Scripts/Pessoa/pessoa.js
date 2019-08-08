@@ -1,0 +1,3 @@
+﻿$(function () {
+    $('#pessoa-tabela').DataTable();
+});
